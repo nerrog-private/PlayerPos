@@ -1,0 +1,11 @@
+name: PlayerPos
+version: '${project.version}'
+main: net.nerrog.playerpos.playerpos.PlayerPos
+api-version: 1.17
+authors: [ nerrog ]
+commands:
+  playerpos:
+    aliases: [ ppos, plsyerpos ]
+    permission: net.nerrog.playerpos.ppos
+    description: プレイヤーのワールド名と座標を取得し、表示します。
+    usage: /<command> PlayerName?
